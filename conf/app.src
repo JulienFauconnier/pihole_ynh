@@ -1,6 +1,6 @@
-SOURCE_URL=https://github.com/pi-hole/pi-hole/archive/v4.0.tar.gz
-SOURCE_SUM=d4e3f74a7a49c243c8b49b27923ecff3
-SOURCE_SUM_PRG=md5sum
+SOURCE_URL=https://github.com/pi-hole/pi-hole/archive/v4.1.tar.gz
+SOURCE_SUM=e0589e818ce3af0685420e650d8d760738b4b68ff56cb9bc2a9b13168cc79f72184343f521d9d9af54b39d750cda946c75bb3c6e4695818e69f993a49f17bcd8
+SOURCE_SUM_PRG=sha512sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
