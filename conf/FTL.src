@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/pi-hole/FTL/releases/download/v4.1/pihole-FTL-linux-x86_64
-SOURCE_SUM=c50d952e598e72bcda553a8e46fbe51e14d25d7d4e912e33d59fc4fe9773eaa8a415f15773ee3b24daec8cd250d85ca759c2d5bc1bdcfe5b6af3c973ca7e8f7f
+SOURCE_URL=https://github.com/pi-hole/FTL/releases/download/v4.1.2/pihole-FTL-linux-x86_64
+SOURCE_SUM=8c428b3aa516c6c7bc35b06a02b9a7ee1a9a2c0d49bd8e9f1aaa5622bd1853dbafd20ba6086afe907f14c9cf0efe28533c487366b3b2872d775d7007c8c516d5
 SOURCE_SUM_PRG=sha512sum
 SOURCE_FORMAT=
 SOURCE_IN_SUBDIR=false
