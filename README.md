@@ -11,7 +11,7 @@ If you don't have YunoHost, please see [here](https://yunohost.org/#/install) to
 ## Overview
 Network-wide ad blocking via your own Linux hardware
 
-**Shipped version:** 4.0
+**Shipped version:** 4.3.1
 
 ## Screenshots
 
@@ -65,7 +65,7 @@ Please do your pull request to the [testing branch](https://github.com/YunoHost-
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/pihole_ynh/tree/testing --verbose
+sudo yunohost app install https://github.com/liberodark/pihole_ynh/
 or
-sudo yunohost app upgrade pihole -u https://github.com/YunoHost-Apps/pihole_ynh/tree/testing --verbose
+sudo yunohost app upgrade pihole -u https://github.com/liberodark/pihole_ynh/
 ```
