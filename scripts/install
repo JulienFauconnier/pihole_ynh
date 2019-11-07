@@ -358,8 +358,12 @@ ynh_system_reload --service_name=nginx
 
 ynh_setup_source /tmp cloudflared
 # Download, check integrity, uncompress and patch the source from cloudflared.src
-ynh_package_install /tmp/cloudflared-stable-linux-amd64.deb
-rm /tmp/cloudflared-stable-linux-amd64.deb
+wget https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-arm.tgz
+tar -xvzf cloudflared-stable-linux-arm.tgz
+sudo cp ./cloudflared /usr/local/bin
+sudo chmod +x /usr/local/bin/cloudflared
+cloudflared -v
+rm cloudflared-stable-linux-arm.tgz
 
 useradd -s /usr/sbin/nologin -r -M cloudflared
 
